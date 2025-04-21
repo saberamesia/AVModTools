@@ -26,7 +26,6 @@ namespace AVModTools
                 module.Dispose();
 
                 module = ModuleDefinition.ReadModule($"{path}\\AxiomVerge.exe", new ReaderParameters { ReadWrite = true });
-                module.Characteristics
                 module = THGame.PatchInPreGameUpdateHook(module);
                 module = THBoss.PatchInBossDamageHook(module);
                 module = THBoss.PatchInBossDeathHooks(module);

@@ -5,6 +5,10 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AVModTools", "AVModTools.csproj", "{5E884390-96C1-4FD1-BC92-65A95DC56DD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AVModToolsMP", "..\AVModToolsMP\AVModToolsMP.csproj", "{CE1B67BE-71E5-FB3A-624D-0B68A3E5287A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AVModToolsMP.Desktop", "..\AVModToolsMP.Desktop\AVModToolsMP.Desktop.csproj", "{10D38861-5653-D95F-8F6B-1592C67786DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{5E884390-96C1-4FD1-BC92-65A95DC56DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E884390-96C1-4FD1-BC92-65A95DC56DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E884390-96C1-4FD1-BC92-65A95DC56DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE1B67BE-71E5-FB3A-624D-0B68A3E5287A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE1B67BE-71E5-FB3A-624D-0B68A3E5287A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE1B67BE-71E5-FB3A-624D-0B68A3E5287A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE1B67BE-71E5-FB3A-624D-0B68A3E5287A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D38861-5653-D95F-8F6B-1592C67786DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D38861-5653-D95F-8F6B-1592C67786DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D38861-5653-D95F-8F6B-1592C67786DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D38861-5653-D95F-8F6B-1592C67786DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
